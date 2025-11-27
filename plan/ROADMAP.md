@@ -23,6 +23,34 @@
 
 ---
 
+## 📁 Structure du Projet
+
+```
+Python/
+├── plan/
+│   └── ROADMAP.md              ← Ce fichier (ta progression)
+│
+├── cours/                       ← 📚 COURS (lecture)
+│   ├── Phase_0_Fondations/
+│   ├── Phase_1_Mathematiques/
+│   ├── Phase_2_Python_DataScience/
+│   └── ...
+│
+└── envs/                        ← ✏️ EXERCICES (pratique)
+    ├── phase_0_foundations/
+    ├── phase_1_math/
+    ├── phase_2_datascience/
+    └── ...
+```
+
+### Comment travailler ?
+
+1. **Lis le cours** → `cours/Phase_X_xxx/`
+2. **Fais les exercices** → `envs/phase_X_xxx/`
+3. **Coche ta progression** → Ce fichier ROADMAP.md
+
+---
+
 ## 🏁 Phase 0: Fondations (2 semaines)
 
 ### Objectifs
@@ -38,12 +66,12 @@
 
 #### Chapitre 00: Jupyter Notebooks
 - [ ] Qu'est-ce qu'un Jupyter Notebook?
-- [ ] Installation d'Anaconda/Jupyter
+- [ ] Installation de Miniconda/Jupyter
 - [ ] Interface et cellules (Code vs Markdown)
 - [ ] Raccourcis clavier essentiels
 - [ ] Exécution et ordre des cellules
 - [ ] Export et partage de notebooks
-- [ ] **Projet**: Créer votre premier notebook avec documentation Markdown
+- [ ] **Exercice**: Créer ton premier notebook → `envs/phase_0_foundations/`
 
 #### Chapitre 01: Python Fundamentals
 - [ ] Variables et types de données (int, float, str, bool)
@@ -54,7 +82,7 @@
 - [ ] Boucles (for, while)
 - [ ] Conditions (if/elif/else)
 - [ ] Fonctions et paramètres
-- [ ] **Projet**: Calculatrice interactive avec historique
+- [ ] **Exercice**: Calculatrice interactive → `envs/phase_0_foundations/`
 
 #### Chapitre 02: Python Intermédiaire
 - [ ] Compréhensions de listes/dictionnaires
@@ -63,7 +91,7 @@
 - [ ] Gestion d'erreurs (try/except)
 - [ ] Lecture/écriture de fichiers
 - [ ] Modules et imports
-- [ ] **Projet**: Analyseur de fichiers texte
+- [ ] **Exercice**: Analyseur de fichiers texte → `envs/phase_0_foundations/`
 
 ### Critères de Validation
 - [ ] Capable de créer et organiser des notebooks propres
@@ -94,7 +122,7 @@
 - [ ] Transposition et inverse
 - [ ] Déterminant et trace
 - [ ] Systèmes d'équations linéaires
-- [ ] **Projet**: Implémentation de matrices sans NumPy
+- [ ] **Exercice**: Implémentation de matrices sans NumPy → `envs/phase_1_math/`
 
 #### Chapitre 04: Algèbre Linéaire Avancée
 - [ ] Espaces vectoriels et sous-espaces

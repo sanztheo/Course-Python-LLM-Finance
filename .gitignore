@@ -1,0 +1,132 @@
+# ========================================
+# Python / ML / LLM Learning Project
+# ========================================
+
+# ========== Environnements Conda ==========
+# Les dossiers envs/ contiennent les exercices - NE PAS IGNORER
+# Seulement ignorer les fichiers conda spécifiques
+.conda/
+*.conda
+environment.yml.lock
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========== Jupyter Notebooks ==========
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter temp files
+.jupyter/
+jupyter_data/
+
+# ========== Virtual Environments ==========
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ========== IDE / Editors ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ========== OS Files ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========== ML / Data Science ==========
+# Datasets (trop gros pour Git)
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+!cours/**/*.csv
+
+# Modèles entraînés
+models/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+*.safetensors
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# TensorBoard
+runs/
+logs/
+tensorboard/
+
+# Hugging Face cache
+.cache/
+~/.cache/huggingface/
+
+# ========== Secrets & Config ==========
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.yaml
+config.local.yaml
+
+# ========== Temp & Misc ==========
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# ========== Documentation build ==========
+docs/_build/
+site/
+claudedocs/
