@@ -8,6 +8,7 @@
 .conda/
 *.conda
 environment.yml.lock
+.DS_Store
 
 
 # ========== Python ==========
