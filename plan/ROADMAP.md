@@ -30,24 +30,52 @@ Python/
 ├── plan/
 │   └── ROADMAP.md              ← Ce fichier (ta progression)
 │
-├── cours/                       ← 📚 COURS (lecture)
+├── cours/                       ← 📚 COURS (lecture seule)
 │   ├── Phase_0_Fondations/
+│   │   ├── 00_Introduction_Jupyter.ipynb
+│   │   └── 01_Installation_Environnement.ipynb
 │   ├── Phase_1_Mathematiques/
-│   ├── Phase_2_Python_DataScience/
+│   │   ├── Maths_01_Les_Bases.ipynb
+│   │   └── Maths_02_Fonctions.ipynb
 │   └── ...
 │
-└── envs/                        ← ✏️ EXERCICES (pratique)
+└── envs/                        ← ✏️ EXERCICES & SOLUTIONS
     ├── phase_0_foundations/
     ├── phase_1_math/
+    │   ├── exercices_01_bases.ipynb      ← 🎯 Exercices à faire
+    │   ├── solutions_01_bases.ipynb      ← ✅ Solutions détaillées
+    │   ├── exercices_02_fonctions.ipynb
+    │   └── solutions_02_fonctions.ipynb
     ├── phase_2_datascience/
     └── ...
 ```
 
-### Comment travailler ?
+### 📖 Organisation Cours vs Exercices
 
-1. **Lis le cours** → `cours/Phase_X_xxx/`
-2. **Fais les exercices** → `envs/phase_X_xxx/`
-3. **Coche ta progression** → Ce fichier ROADMAP.md
+| Dossier | Contenu | Objectif |
+|---------|---------|----------|
+| `cours/` | **Théorie uniquement** | Apprendre les concepts, voir les exemples |
+| `envs/exercices_*.ipynb` | **Exercices à compléter** | Pratiquer et tester tes connaissances |
+| `envs/solutions_*.ipynb` | **Solutions détaillées** | Vérifier tes réponses et comprendre |
+
+### 🎯 Comment travailler efficacement ?
+
+1. **📖 Lis le cours** → `cours/Phase_X_xxx/`
+   - Prends le temps de comprendre chaque concept
+   - Exécute les cellules de code pour voir les résultats
+   - N'essaie pas de mémoriser, comprends !
+
+2. **✏️ Fais les exercices** → `envs/phase_X_xxx/exercices_*.ipynb`
+   - Essaie **VRAIMENT** avant de regarder les solutions
+   - Écris tes réponses dans les cellules prévues
+   - Si tu bloques > 15 min, regarde un indice puis réessaie
+
+3. **✅ Vérifie avec les solutions** → `envs/phase_X_xxx/solutions_*.ipynb`
+   - Compare ta méthode avec la solution officielle
+   - Comprends les différences s'il y en a
+   - Refais l'exercice si tu n'avais pas compris
+
+4. **📋 Coche ta progression** → Ce fichier ROADMAP.md
 
 ---
 
