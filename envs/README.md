@@ -1,46 +1,97 @@
-# 📝 Exercices et Travaux par Phase
+# 🏁 Parcours d'Apprentissage : Python & Intelligence Artificielle
 
-Ce dossier contient tes exercices, projets et fichiers de travail organisés par phase.
+Bienvenue dans ce dépôt ! Ce projet représente mon **marathon d'apprentissage** personnel vers la maîtrise de Python et de l'Intelligence Artificielle. 
 
-## 📋 Structure
+C'est une course contre la montre (et contre moi-même) pour acquérir des compétences solides, des bases mathématiques jusqu'au développement de LLMs avancés.
 
-```
-envs/
-├── phase_0_foundations/     → Exercices Python basics, Jupyter
-├── phase_1_math/            → Exercices maths, calculs NumPy
-├── phase_2_datascience/     → Exercices Pandas, visualisation
-├── phase_3_ml_classic/      → Projets ML, notebooks scikit-learn
-├── phase_4_deeplearning/    → Projets PyTorch, réseaux de neurones
-├── phase_5_nlp_transformers/→ Projets NLP, fine-tuning
-├── phase_6_llm_dev/         → Projets LLM, RAG, agents
-└── phase_7_advanced/        → Projets avancés, finance quant
-```
+## 🗺️ La Carte du Parcours
 
-## 🎯 Comment utiliser
+Le projet est structuré en phases distinctes, chacune représentant une étape clé de la montée en compétence :
 
-1. **Lis le cours** dans `cours/Phase_X_xxx/`
-2. **Fais les exercices** ici dans `envs/phase_X_xxx/`
-3. **Sauvegarde ton environnement** à chaque étape importante :
+### 🟢 Phase 0 : Foundations
+*Bases solides pour démarrer.*
+- Mise en place de l'environnement.
+- Fondamentaux de Python.
 
-```bash
-conda activate llm
-conda env export --no-builds > envs/phase_X_xxx/environment.yml
-```
+### 📐 Phase 1 : Mathématiques pour l'IA
+*Le moteur sous le capot.*
+- Algèbre linéaire.
+- Calcul différentiel (Calculus).
+- Probabilités et Statistiques.
 
-## 📁 Organisation suggérée par dossier
+### 📊 Phase 2 : Data Science
+*Comprendre et manipuler la donnée.*
+- Manipulation de données (Pandas, NumPy).
+- Visualisation (Matplotlib, Seaborn).
+- Analyse exploratoire.
 
-```
-phase_X_xxx/
-├── environment.yml          → Config conda (optionnel)
-├── exercice_01.ipynb        → Tes exercices
-├── exercice_02.ipynb
-├── projet_xxx.ipynb         → Tes projets
-└── notes.md                 → Tes notes personnelles
-```
+### 🤖 Phase 3 : Machine Learning Classique
+*Les algorithmes fondamentaux.*
+- Régression, Classification, Clustering.
+- Scikit-learn.
+- Évaluation de modèles.
 
-## 💡 Conseils
+### 🧠 Phase 4 : Deep Learning
+*Réseaux de neurones et architectures complexes.*
+- PyTorch / TensorFlow.
+- CNNs (Vision par ordinateur).
+- RNNs / LSTMs (Séquences).
 
-- Nomme tes fichiers clairement : `exercice_01_puissances.ipynb`
-- Ajoute des commentaires dans ton code
-- Commit régulièrement tes exercices sur Git
-- Compare tes solutions avec les cours
+### 🗣️ Phase 5 : NLP & Transformers
+*Le traitement du langage naturel.*
+- Traitement de texte.
+- Architecture Transformer (Attention is all you need).
+- BERT, GPT, etc.
+
+### ⚡ Phase 6 : LLM Dev
+*Développement avec les Grands Modèles de Langage.*
+- Fine-tuning.
+- RAG (Retrieval-Augmented Generation).
+- Agents et Orchestration (LangChain, etc.).
+
+### 🚀 Phase 7 : Advanced
+*Sujets avancés et spécialisations.*
+- Optimisation.
+- MLOps.
+- Recherche de pointe.
+
+---
+
+## 📈 Progression de la Course
+
+Cochez les cases au fur et à mesure de votre avancée !
+
+- [ ] **Phase 0** : Foundations
+- [ ] **Phase 1** : Math
+- [ ] **Phase 2** : Data Science
+- [ ] **Phase 3** : ML Classic
+- [ ] **Phase 4** : Deep Learning
+- [ ] **Phase 5** : NLP & Transformers
+- [ ] **Phase 6** : LLM Dev
+- [ ] **Phase 7** : Advanced
+
+---
+
+## 🛠️ Installation & Utilisation
+
+Pour suivre ce parcours ou exécuter les notebooks :
+
+1.  Clonez ce dépôt :
+    ```bash
+    git clone https://github.com/votre-username/votre-repo.git
+    cd votre-repo
+    ```
+
+2.  Installez les dépendances (recommandé dans un environnement virtuel) :
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  Lancez Jupyter Notebook :
+    ```bash
+    jupyter notebook
+    ```
+
+---
+
+*“The only way to learn a new programming language is by writing programs in it.” - Dennis Ritchie*
