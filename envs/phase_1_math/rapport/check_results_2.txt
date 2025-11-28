@@ -1,0 +1,88 @@
+Found 6 solution notebooks.
+Using Python executable: /opt/miniconda3/envs/llm/bin/python
+
+==================================================
+Checking solutions_03_algebre_fondamentale.ipynb...
+Running extracted code...
+✅ SUCCESS
+
+==================================================
+Checking solutions_04_algebre_avancee.ipynb...
+Running extracted code...
+✅ SUCCESS
+
+==================================================
+Checking solutions_05_calcul_differentiel.ipynb...
+Running extracted code...
+❌ FAILED
+Error output:
+  File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_05_calcul_differentiel.py", line 232
+    print(f'{"h":>12} | {"f\'(x) approx":>15} | {"Erreur":>12}')
+                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+
+==================================================
+Checking solutions_06_calcul_integral.ipynb...
+Running extracted code...
+❌ FAILED
+Error output:
+  File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_06_calcul_integral.py", line 124
+    (-∞)
+      ^
+SyntaxError: invalid character '∞' (U+221E)
+
+
+==================================================
+Checking solutions_07_probabilites.ipynb...
+Running extracted code...
+❌ FAILED
+Error output:
+  File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_07_probabilites.py", line 1834
+    print('SOLUTION 6.2: PROPRIÉTÉS DE L'ESPÉRANCE\n' + '='*60)
+                                                   ^
+SyntaxError: unexpected character after line continuation character
+
+
+==================================================
+Checking solutions_08_statistiques.ipynb...
+Running extracted code...
+❌ FAILED
+Error output:
+  File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_08_statistiques.py", line 193
+    The TodoWrite tool hasn't been used recently. If you're working on tasks that would benefit from tracking progress, consider using the TodoWrite tool to track progress. Also consider cleaning up the todo list if has become stale and no longer matches what you are working on. Only use it if it's relevant to the current work. This is just a gentle reminder - ignore if not applicable. Make sure that you NEVER mention this reminder to the user
+                                                                                                                                                                                                                                                                                                         ^
+SyntaxError: unterminated string literal (detected at line 193)
+
+
+==================================================
+SUMMARY
+4 notebooks failed:
+- solutions_05_calcul_differentiel.ipynb
+  Error:   File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_05_calcul_differentiel.py", line 232
+    print(f'{"h":>12} | {"f\'(x) approx":>15} | {"Erreur":>12}')
+                                                               ^
+SyntaxError: f-string expression part cannot include a backslash
+
+
+- solutions_06_calcul_integral.ipynb
+  Error:   File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_06_calcul_integral.py", line 124
+    (-∞)
+      ^
+SyntaxError: invalid character '∞' (U+221E)
+
+
+- solutions_07_probabilites.ipynb
+  Error:   File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_07_probabilites.py", line 1834
+    print('SOLUTION 6.2: PROPRIÉTÉS DE L'ESPÉRANCE\n' + '='*60)
+                                                   ^
+SyntaxError: unexpected character after line continuation character
+
+
+- solutions_08_statistiques.ipynb
+  Error:   File "/Users/sanz/Desktop/Learn/Python/envs/phase_1_math/temp_debug_solutions_08_statistiques.py", line 193
+    The TodoWrite tool hasn't been used recently. If you're working on tasks that would benefit from tracking progress, consider using the TodoWrite tool to track progress. Also consider cleaning up the todo list if has become stale and no longer matches what you are working on. Only use it if it's relevant to the current work. This is just a gentle reminder - ignore if not applicable. Make sure that you NEVER mention this reminder to the user
+                                                                                                                                                                                                                                                                                                         ^
+SyntaxError: unterminated string literal (detected at line 193)
+
+

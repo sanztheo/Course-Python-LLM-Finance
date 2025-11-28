@@ -132,3 +132,6 @@ temp/
 docs/_build/
 site/
 claudedocs/
+
+# Dossier personnel pour exercices
+mon_travail/
