@@ -74,20 +74,34 @@ Cochez les cases au fur et à mesure de votre avancée !
 
 ## 🛠️ Installation & Utilisation
 
-Pour suivre ce parcours ou exécuter les notebooks :
+### Prérequis
 
-1.  Clonez ce dépôt :
+Avant de commencer, assurez-vous d'avoir **Git** installé sur votre machine :
+- 📥 **[Télécharger Git](https://git-scm.com/install/)** (Windows, macOS, Linux)
+- Vérifiez l'installation : `git --version`
+
+### Cloner le Projet
+
+Regardez cette vidéo qui explique comment cloner le dépôt :
+
+
+https://github.com/user-attachments/assets/c82d9bb3-ef1b-4b1d-9f68-19dc2d59ed46
+
+
+Ou suivez ces étapes :
+
+1.  **Clonez ce dépôt** :
     ```bash
     git clone https://github.com/votre-username/votre-repo.git
     cd votre-repo
     ```
 
-2.  Installez les dépendances (recommandé dans un environnement virtuel) :
+2.  **Installez les dépendances** (recommandé dans un environnement virtuel) :
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  Lancez Jupyter Notebook :
+3.  **Lancez Jupyter Notebook** :
     ```bash
     jupyter notebook
     ```
