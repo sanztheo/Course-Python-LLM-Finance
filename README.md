@@ -84,9 +84,7 @@ Avant de commencer, assurez-vous d'avoir **Git** installé sur votre machine :
 
 Regardez cette vidéo qui explique comment cloner le dépôt :
 
-
-https://github.com/user-attachments/assets/c82d9bb3-ef1b-4b1d-9f68-19dc2d59ed46
-
+<video src="assets/videos/gitclone-video.mp4" controls width="100%"></video>
 
 Ou suivez ces étapes :
 
@@ -116,9 +114,7 @@ Le projet est régulièrement mis à jour avec de nouveaux contenus et correctio
 
 Regardez cette vidéo qui explique le processus :
 
-
-https://github.com/user-attachments/assets/f3e8a8e7-0c5d-4f32-9f5a-2d9c5e5c5e5e
-
+<video src="assets/videos/gitfetch.mp4" controls width="100%"></video>
 
 Ou utilisez cette commande :
 ```bash
