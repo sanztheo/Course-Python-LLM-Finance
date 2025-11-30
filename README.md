@@ -108,4 +108,36 @@ Ou suivez ces étapes :
 
 ---
 
-*“The only way to learn a new programming language is by writing programs in it.” - Dennis Ritchie*
+## 🔄 Obtenir les Mises à Jour
+
+Le projet est régulièrement mis à jour avec de nouveaux contenus et corrections. Voici comment récupérer les dernières modifications :
+
+### Méthode 1 : Via le Terminal
+
+Regardez cette vidéo qui explique le processus :
+
+
+https://github.com/user-attachments/assets/f3e8a8e7-0c5d-4f32-9f5a-2d9c5e5c5e5e
+
+
+Ou utilisez cette commande :
+```bash
+git fetch
+```
+
+Ensuite, synchronisez les changements :
+```bash
+git pull
+```
+
+### Méthode 2 : Via l'Éditeur (VS Code)
+
+1. Ouvrez le panneau **Source Control** (icône de branche à gauche)
+2. Cliquez sur le bouton **"Sync"** (↻) en haut
+3. Les mises à jour seront automatiquement récupérées et appliquées
+
+💡 **Astuce** : Pensez à vérifier régulièrement les mises à jour pour profiter des nouveaux contenus !
+
+---
+
+*"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie*
