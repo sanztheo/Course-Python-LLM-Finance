@@ -9,7 +9,7 @@
 *.conda
 environment.yml.lock
 .DS_Store
-
+sessionid.txt
 
 # ========== Python ==========
 __pycache__/
